@@ -69,6 +69,16 @@ main .bg4 .bread2 img {}
 main .bg4 .bread3 {}
 main .bg4 .bread3 p {}
 main .bg4 .bread3 img {}
+/* ==========5.  */
+main .bg5 {}
+main .bg5 p {
+    font-size: 1.563rem; font-weight: 300;
+    margin-left: 99px; margin-bottom: 29px;
+}
+main .bg5 p span {
+    font-weight: 700; color: #0C3880;
+    font-size: 1.563rem;
+}
 /* ===========6. */
 main .bg6 {}
 main .bg6 ul {

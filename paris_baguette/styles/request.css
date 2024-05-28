@@ -16,19 +16,19 @@ main .request {
 main #app_frm {}
 main #app_frm .application {}
 main #app_frm .application ul {
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex; flex-flow: column nowrap; justify-content: space-between;
 
 }
 main #app_frm .application ul li {
-    width: 123px; border: 1px solid red;
+    width: 123px; /* border: 1px solid red; */
     font-size: 0.938rem; font-weight: 300;
 }
 main #app_frm .application ul .content input {
     width: 311px; height: 214px;
 }
 main #app_frm .application ul li input {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 243px; height: 27px;
     border: 0; border-bottom: 1px solid #000;
 }
