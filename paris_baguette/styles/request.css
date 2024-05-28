@@ -1,0 +1,51 @@
+main {
+    width: 430px; margin: 0 auto;
+}
+main h1 {
+    font-size: 1.875rem; font-weight: 700;
+    color: #0C3880;
+    padding-top: 15.83px; padding-bottom: 16px;
+}
+main p {
+    font-size: 0.75rem; font-weight: 300;
+}
+main .request {
+    font-size: 0.75rem; font-weight: 300;
+    padding-top: 8px; padding-bottom: 21px;
+}
+main #app_frm {}
+main #app_frm .application {}
+main #app_frm .application ul {
+    background-color: tomato;
+    display: flex; flex-flow: column nowrap; justify-content: space-between;
+
+}
+main #app_frm .application ul li {
+    width: 123px; border: 1px solid red;
+    font-size: 0.938rem; font-weight: 300;
+}
+main #app_frm .application ul .content input {
+    width: 311px; height: 214px;
+}
+main #app_frm .application ul li input {
+    background-color: yellow;
+    width: 243px; height: 27px;
+    border: 0; border-bottom: 1px solid #000;
+}
+/* -----구글,네이버,카카오,등등 이메일 주소 */
+main #app_frm .application ul li #user_email {}
+main #app_frm .application ul li #user_email option {}
+main #app_frm .application ul li #search {}
+main #app_frm .application ul li #visit {}
+main #app_frm .application ul li #introduction {}
+main #app_frm .application ul li #estate {}
+main #app_frm .application ul li #etc {}
+main #app_frm .application ul li label {}
+/* ------ 버튼 */
+main button {
+    width: 259px; line-height: 39px;
+    background-color: #0C3880; color: #fff;
+    font-weight: 500;
+    border: 0; border-radius: 10px;
+    margin-top: 42px; margin-left: 85px;
+}

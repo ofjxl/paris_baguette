@@ -1,0 +1,99 @@
+main {
+    background-color: #EDEDED;
+    border: 2px solid red;
+    width: 430px; margin: 0 auto;
+    font-family: "noto sans kr", sans-serif;
+}
+/* ============1.  */
+main .bg1 {}
+main .bg1 section {
+    background-image: url(../images/bg1.jpg);
+}
+main .bg1 section .header {
+    display: flex; justify-content: space-between; text-align: center;
+    padding: 17px 16px;
+}
+main .bg1 section .header a {}
+main .bg1 section .header a img {}
+main .bg1 section .header h1 {}
+main .bg1 section .header h1 a {}
+main .bg1 section .header h1 a img {}
+main .bg1 section p {
+    padding-top: 107px; padding-left: 275px; padding-bottom: 30px;
+}
+main .bg1 section p img {}
+main .bg1 section h2 {
+    padding-left: 215px; text-align: center;
+    padding-bottom: 41px; 
+    font-size: 1.25rem; color: #fff;
+}
+/* ==========2. */
+main .bg2 {
+    padding-top: 50px; 
+}
+main .bg2 p {
+    padding-left: 87px;
+    font-size: 1.25rem; font-weight: 600; 
+}
+main .bg2 p img {}
+/* ========================3.  */
+main .bg3 {margin-top: 21px;}
+main .bg3 .bg2_title {
+    font-size: 1.688rem; font-weight: 700;
+    color: #0C3880;
+    padding-left: 51px;
+    padding-bottom: 9px;
+}
+main .bg3 .bg2_contents {
+    color: rgb(87, 87, 87); font-weight: 300;
+    padding-left: 51px;
+}
+/* ==================4. */
+main .bg4 {
+    margin: 50px 14px 80px 14px;
+}
+/* ------bread1 */
+main .bg4 .bread1 {}
+main .bg4 .bread1 img {}
+main .bg4 .bread1 p {
+    font-size: 0.75rem;
+}
+main .bg4 .bread1 p span {}
+/* ------bread2 */
+main .bg4 .bread2 {}
+main .bg4 .bread2 p {
+    font-size: 0.75rem;
+}
+main .bg4 .bread2 img {}
+/* ------bread3 */
+main .bg4 .bread3 {}
+main .bg4 .bread3 p {}
+main .bg4 .bread3 img {}
+/* ===========6. */
+main .bg6 {}
+main .bg6 ul {
+    text-align: center;
+}
+main .bg6 ul li {
+    font-size: 0.938rem;
+    background-color: #0C3880; width: 189px; height: 92px;
+    color: #fff;
+}
+main .bg6 ul li img {}
+main .bg6 ul li .number_c {
+    background-color: #fff;
+    width: 27px; height: 28px;
+    border-radius: 50%;
+}
+/* =======nav */
+main nav {
+    margin-top: 22px;
+    display: flex; justify-content: space-between;
+    text-align: center;
+    margin-left: 55px; margin-right: 55px;
+}
+main nav .nav1 {}
+main nav .nav1 img {}
+main nav p {
+    font-size: 0.75rem; color: #0C3880;
+}

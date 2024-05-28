@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가맹점 상담신청</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/request.css">
+</head>
+<body>
+    <main>
+        <h1>가맹점 상담신청</h1>
+        <p>가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</p>
+        <p class="request">* 항목은 필수입력 사항입니다</p>
+        <form action="#" method="get" id="app_frm">
+            <fieldset class="application">
+                <legend class="skip">상담신청 양식</legend>
+                <ul>
+                    <li>
+                        *이름
+                        <input type="text" name="user_name" required>
+                    </li>
+                    <li>
+                        *휴대폰 번호
+                        <input type="number" name="user_number" required>
+                    </li>
+                    <li>
+                        *이메일
+                        <input type="email" name="user_mail" required>@ <input type="email" name="user_mail" >
+                        <select name="email" id="user_email">
+                            <option value="google">google.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="kakako">kakako.com</option>
+                            <option value="hanmail">hanmail.net</option>
+                            <option value="직접입력">직접 입력</option>
+                        </select>
+                    </li>
+                    <li>
+                        *창업희망지역
+                        <input type="text" name="user_area" required>
+                    </li>
+                    <li>
+                        신청계기
+                        <input type="checkbox" name="subscription" id="search" value="internet_search">
+                        <label for="search">인터넷 검색</label>
+                        <input type="checkbox" name="subscription" id="visit" value="mart_visit">
+                        <label for="visit">매장 방문</label>
+                        <input type="checkbox" name="subscription" id="introduction" value="introduction">
+                        <label for="introduction">지인 소개</label>
+                        <br>
+                        <input type="checkbox" name="subscription" id="estate" value="estate">
+                        <label for="estate">컨설팅/부동산</label>
+                        <input type="checkbox" name="subscription" id="etc" value="etc">
+                        <label for="etc">기타</label>
+                    </li>
+                    <li>
+                        *제목
+                        <input type="text" name="title" required>
+                    </li>
+                    <li class="content">
+                        *내용
+                        <input type="text" name="contents" required>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <button type="button">상담 신청하기</button>
+    </main>
+</body>
+</html>
